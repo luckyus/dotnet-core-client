@@ -36,7 +36,6 @@ namespace dotnet_core_client
 			Send
 		}
 
-
 		private static async Task ConnectToWebsocketServerAsync(string url)
 		{
 			using var webSocket = new ClientWebSocket();
