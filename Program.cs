@@ -18,7 +18,7 @@ namespace dotnet_core_client
 			Console.WriteLine(">>> WebSocket Test <<<");
 			//Console.WriteLine("Enter URL:");
 			//var url = Console.ReadLine();
-			var url = "wss://localhost:44350/api/websocket";
+			var url = "ws://192.168.0.138:53262/api/websocket";
 			Console.WriteLine("Connecting " + url + "...");
 
 			await ConnectToWebsocketServerAsync(url);
